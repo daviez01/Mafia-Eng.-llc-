@@ -1,0 +1,65 @@
+.hero {
+    background-image: url(./imgs/pexels-francesco-ungaro-101761779.jpg);
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+} 
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.boxes {
+    height: 35rem;
+}
+
+.card {
+    width: calc(10rem + 13vw);
+}
+
+.card img {
+    height: 14rem;
+}
+
+.logo {
+    height: 10rem;
+    width: 5rem;
+}
+
+.logo img {
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav li {
+        border-right: none !important;
+        /* background-color: blue; */
+    }
+    
+    .boxes {
+        height: 38rem;
+        justify-content: center;
+    }
+
+    .card {
+        width: calc(10rem + 9.5vw);
+    }
+}
+
+@media (max-width: 576px) {
+    .boxes {
+        height: 72rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+} 
